@@ -25,11 +25,18 @@ function calcular(){
 
     console.log(qdtTotalCarne);
 
+}
+}
+
+function limpar(){
     inputAdultos.value = " "
     inputCriancas.value = " "
     inputDuracao.value = " "
 
-}
+    resultado.innerHTML = ``
+    resultado.innerHTML += ``
+    resultado.innerHTML += ``
+
 }
 
 function carnePP(duracao){
