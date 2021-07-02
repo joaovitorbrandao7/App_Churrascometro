@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    
+
+
+    
+}
+body{
+    background-image:url("carne.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.container{
+    max-width: 300px;
+    margin: auto;
+    background-color: rgb(211, 56, 56);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 90px;
+
+}
+
+h1{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+.legenda{
+    margin: 0;
+    margin-bottom: 25%;
+
+}
+.legenda .t{
+
+    font-size: 12px;
+    float: left;
+    }
+
+.text{
+        
+        margin-top: 20px;
+    }
+  
+.text input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-style: none;
+}
+.text #btn{
+    padding: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(161, 36, 36);
+    color: white;
+    transition: 0.5s;
+
+}
+
+.text #btn:hover{
+background-color: rgb(138, 26, 26);
+
+}
+
+    #resultado{
+    
+    margin:auto 0;
+    
+    }
